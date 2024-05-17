@@ -6,6 +6,7 @@
     transition: background .5s;
     border-radius: 3px;
     padding: 10px;
+    cursor: pointer;
 }
 .CardButton:hover{
     background-color:#2F2F2F;

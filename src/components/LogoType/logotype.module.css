@@ -1,0 +1,11 @@
+.LogoType{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    img{
+        object-fit: cover;
+        width: 179px;
+        height: 25px;
+    }
+}

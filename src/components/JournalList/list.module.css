@@ -1,0 +1,13 @@
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.list::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}

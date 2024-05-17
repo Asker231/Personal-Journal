@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './createButton.module.css';
-import Add from '../../../public/Add.svg'
+import Add from '../../assets/Add.svg'
 
 function CreateButton() {
   return (
