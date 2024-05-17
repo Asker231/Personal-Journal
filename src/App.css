@@ -1,0 +1,13 @@
+#root {
+  margin: 0 auto;
+  
+}
+
+.app{
+   height: 100vh;
+   display: flex;
+   flex-direction: row;
+   align-items: start;
+   justify-content: start;
+}
+
