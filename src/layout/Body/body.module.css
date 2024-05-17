@@ -5,6 +5,7 @@
     max-height: 100%;
     display: flex;
     flex-direction: column;
+    font-family: "Inter", sans-serif;
 }
 .form{
     display: flex;
@@ -41,3 +42,55 @@
         height: 20px;
     }
 }
+
+.vstack{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    .date{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 200px;
+        .hstackOne{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+    }
+    .map{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 200px;
+        .hstackmap{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+    }
+}
+
+.textarea{
+    background: none;
+    border:none;
+    border: 0.5px solid  #292929; 
+    border-radius: 3px;
+    transition: .4s;
+    outline: none;
+    resize: none;
+    color: white;
+    font-size: 18px;
+    padding:5px;
+    font-weight: 600;
+}
+
+.textActive{
+    border: 0.5px solid #8c25f3;
+}
+
+
