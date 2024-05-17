@@ -10,9 +10,10 @@ function LeftBar() {
   return (
     <div className={style.leftBar}>
       <LogoType/>
-      <CardButton><CreateButton/></CardButton>
-
-<JournalList/>
+       <CardButton>
+         <CreateButton/>
+        </CardButton>
+      <JournalList/>
     </div>
   )
 }
